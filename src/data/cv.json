@@ -1,0 +1,131 @@
+{
+  "personalInfo": {
+    "name": "Aarón Álvarez Rodríguez",
+    "title": "Desarrollador Full Stack",
+    "email": "aaralvrod@gmail.com",
+    "bio": "",
+    "photoUrl": "https://ui-avatars.com/api/?name=Aaron+Alvarez&background=6366f1&color=fff&size=256&font-size=0.4",
+    "extendedBio": "¡Hola! Soy Aarón, un desarrollador apasionado por crear experiencias web modernas y funcionales. Me especializo en tecnologías backend con Python y Django, aunque también tengo experiencia en frontend como Vue.js y Tailwind CSS. Me encanta aprender nuevas tecnologías y enfrentar desafíos que me permitan crecer profesionalmente. Cuando no estoy programando, me puedes encontrar explorando nuevos proyectos o mejorando mis habilidades técnicas.",
+    "social": {
+      "github": "https://github.com/aaralvrod",
+      "linkedin": "https://www.linkedin.com/in/aaralvrod"
+    }
+  },
+  "skills": {
+    "frontend": [
+      "Vue.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "JavaScript",
+      "HTML/CSS"
+    ],
+    "backend": [
+      "Python",
+      "Django",
+      "Node.js",
+      "PostgreSQL",
+      "MySQL",
+      "SQLite3"
+    ],
+    "tools": [
+      "Git",
+      "Docker",
+      "VS Code",
+      "Linux"
+    ]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "role": "Desarrollador Full Stack",
+      "company": "Asociación Científico Tecnológica HyperSpace - Proyecto TeideSat",
+      "period": "2025",
+      "description": "Desarrollo de paneles de control con Grafana para monitorización de datos del satélite. Creación de simulaciones meteorológicas utilizando Python para predicción de condiciones espaciales. Implementación de módulos empresariales con Odoo para gestión de operaciones.",
+      "technologies": [
+        "Python",
+        "Grafana",
+        "Odoo",
+        "PostgreSQL",
+        "Docker"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "Bachillerato Científico Tecnológico",
+      "institution": "IES Puerto de la Cruz - Telesforo Bravo",
+      "year": "2021 - 2022"
+    },
+    {
+      "id": 2,
+      "degree": "Desarrollo de Aplicaciones Web (DAW)",
+      "institution": "Instituto de Formación Profesional",
+      "year": "2023 - 2026"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Lumino",
+      "description": "Plataforma de Educación Online - Sistema completo de gestión de cursos y estudiantes",
+      "tags": [
+        "Python",
+        "Django",
+        "Bootstrap"
+      ],
+      "codeUrl": "https://github.com/edumel20/lumino",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Tribu",
+      "description": "Pequeña Red Social - Conecta personas y comunidades",
+      "tags": [
+        "Python",
+        "Django",
+        "Bootstrap"
+      ],
+      "codeUrl": "https://github.com/edumel20/tribu/tree/main",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Tienda de Cafés",
+      "description": "Pequeña tienda de cafés con carrito de compra",
+      "tags": [
+        "TypeScript",
+        "HTML",
+        "Vue"
+      ],
+      "codeUrl": "https://github.com/edumel20/tienda_VUE",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "SuperTodo",
+      "description": "Aplicación de gestión de tareas con funcionalidades avanzadas",
+      "tags": [
+        "Python",
+        "Django",
+        "Bootstrap"
+      ],
+      "codeUrl": "https://github.com/aaralvrod/dsw/tree/main/ut2/supertodo",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "AstroPi Mission Space Lab",
+      "description": "Experimento espacial para la ISS - Cálculo de velocidad orbital usando visión artificial en Raspberry Pi",
+      "tags": [
+        "Python",
+        "OpenCV",
+        "Data Science",
+        "Raspberry Pi"
+      ],
+      "demoUrl": "https://astro-pi.org/mission-space-lab",
+      "codeUrl": "https://github.com/iespuertodelacruz/astropi-2425/tree/main/mission-space-lab",
+      "featured": true
+    }
+  ]
+}

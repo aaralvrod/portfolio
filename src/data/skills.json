@@ -1,0 +1,28 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "name": "Frontend",
+      "description": "Desarrollo de interfaces modernas con Vue.js, React y Tailwind CSS",
+      "tags": ["Vue.js", "Javascript", "Tailwind CSS", "TypeScript"]
+    },
+    {
+      "id": 2,
+      "name": "Backend",
+      "description": "APIs robustas con Python y Django",
+      "tags": ["Python", "Django", "Node.js"]
+    },
+    {
+      "id": 3,
+      "name": "Bases de Datos",
+      "description": "Diseño y gestión de bases de datos relacionales y no relacionales",
+      "tags": ["PostgreSQL", "MySQL", "SQLite"]
+    },
+    {
+      "id": 4,
+      "name": "DevOps",
+      "description": "Despliegue y automatización con Docker y CI/CD",
+      "tags": ["Docker", "GitHub", "Linux"]
+    }
+  ]
+}
