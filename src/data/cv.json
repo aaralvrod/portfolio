@@ -33,7 +33,11 @@
       "Git",
       "Github",
       "Grafana",
-      "Prometheus"
+      "Prometheus",
+      "Docker",
+      "WordPress",
+      "Odoo",
+      "Figma"
     ]
   },
   "experience": [
@@ -104,6 +108,60 @@
   "projects": [
     {
       "id": 1,
+      "title": "Intranet Ayto. Santa Úrsula",
+      "description": "Intranet para la gestión de activos, solicitudes y consulta de información administrativa para el ayuntamiento de Santa Úrsula",
+      "tags": [
+        "Python",
+        "Django",
+        "Bootstrap",
+        "Docker",
+        "PostgreSQL",
+        "Vue",
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "Otros"
+      ],
+      "codeUrl": "https://github.com/aaralvrod/IntranetSantaUrsula",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Transporte Digital",
+      "description": "Aplicación web para la digitalización del transporte público",
+      "tags": [
+        "Python",
+        "Django",
+        "Bootstrap",
+        "Docker",
+        "PostgreSQL",
+        "Vue",
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "Otros"
+      ],
+      "codeUrl": "",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Gameside",
+      "description": "Aplicación web para la venta online de videojuegos",
+      "tags": [
+        "Python",
+        "Django",
+        "Bootstrap",
+        "SQLite3",
+        "CSS",
+        "HTML",
+        "Otros"
+      ],
+      "codeUrl": "https://github.com/aaralvrod/gameside",
+      "featured": true
+    },
+    {
+      "id": 4,
       "title": "Lumino",
       "description": "Plataforma de Educación Online - Sistema completo de gestión de cursos y estudiantes",
       "tags": [
@@ -115,7 +173,7 @@
       "featured": true
     },
     {
-      "id": 2,
+      "id": 5,
       "title": "Tribu",
       "description": "Pequeña Red Social - Conecta personas y comunidades",
       "tags": [
@@ -127,9 +185,9 @@
       "featured": true
     },
     {
-      "id": 3,
+      "id": 6,
       "title": "Tienda de Cafés",
-      "description": "Pequeña tienda de cafés con carrito de compra",
+      "description": "Aplicación web para la venta de cafés",
       "tags": [
         "TypeScript",
         "HTML",
@@ -139,7 +197,7 @@
       "featured": true
     },
     {
-      "id": 4,
+      "id": 7,
       "title": "SuperTodo",
       "description": "Aplicación de gestión de tareas con funcionalidades avanzadas",
       "tags": [
@@ -151,7 +209,7 @@
       "featured": false
     },
     {
-      "id": 5,
+      "id": 8,
       "title": "AstroPi Mission Space Lab",
       "description": "Experimento espacial para la ISS - Cálculo de velocidad orbital usando visión artificial en Raspberry Pi",
       "tags": [

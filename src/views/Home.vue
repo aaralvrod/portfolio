@@ -185,17 +185,17 @@
               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-blue opacity-75"></span>
               <span class="relative inline-flex rounded-full h-2 w-2 bg-accent-blue"></span>
             </span>
-            <span>Actividad</span>
+            <span>Actualmente</span>
           </div>
           <Layers class="w-4 h-4 text-accent-blue/60" />
         </div>
 
         <div class="relative z-10 my-6 space-y-2">
           <div class="text-sm font-bold text-white">
-            Programando en Vue 3 & Django
+            Desarrollando app para la digitalización de transportes
           </div>
           <p class="text-xs text-bento-subtext leading-relaxed">
-            Actualmente enfocado en construir APIs robustas y dashboards interactivos.
+            Trabajando en una nueva solución para optimizar y digitalizar los procesos de transporte
           </p>
         </div>
 
