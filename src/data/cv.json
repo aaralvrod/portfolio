@@ -1,11 +1,11 @@
 {
   "personalInfo": {
     "name": "Aarón Álvarez Rodríguez",
-    "title": "Desarrollador Full Stack",
-    "email": "aaralvrod@gmail.com",
+    "title": "Desarrollador Web / Full Stack",
+    "email": "aaron05.aar@gmail.com",
     "bio": "",
     "photoUrl": "https://ui-avatars.com/api/?name=Aaron+Alvarez&background=6366f1&color=fff&size=256&font-size=0.4",
-    "extendedBio": "¡Hola! Soy Aarón, un desarrollador apasionado por crear experiencias web modernas y funcionales. Me especializo en tecnologías backend con Python y Django, aunque también tengo experiencia en frontend como Vue.js y Tailwind CSS. Me encanta aprender nuevas tecnologías y enfrentar desafíos que me permitan crecer profesionalmente. Cuando no estoy programando, me puedes encontrar explorando nuevos proyectos o mejorando mis habilidades técnicas.",
+    "extendedBio": "Soy desarrollador web con ganas de crecer en el mundo Full Stack. Me gusta construir cosas que funcionen, aprender rápido y no quedarme quieto. He pasado por proyectos reales durante mis prácticas y eso me ha dado una visión práctica del desarrollo que va más allá del aula.",
     "social": {
       "github": "https://github.com/aaralvrod",
       "linkedin": "https://www.linkedin.com/in/aaralvrod"
@@ -13,56 +13,93 @@
   },
   "skills": {
     "frontend": [
-      "Vue.js",
-      "TypeScript",
-      "Tailwind CSS",
+      "HTML/CSS",
       "JavaScript",
-      "HTML/CSS"
+      "TypeScript",
+      "Vue.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Bootstrap"
     ],
     "backend": [
       "Python",
       "Django",
-      "Node.js",
-      "PostgreSQL",
+      "Bash",
       "MySQL",
-      "SQLite3"
+      "PostgreSQL",
+      "SQLite"
     ],
     "tools": [
       "Git",
-      "Docker",
-      "VS Code",
-      "Linux"
+      "Github",
+      "Grafana",
+      "Prometheus"
     ]
   },
   "experience": [
     {
       "id": 1,
-      "role": "Desarrollador Full Stack",
-      "company": "Asociación Científico Tecnológica HyperSpace - Proyecto TeideSat",
-      "period": "2025",
-      "description": "Desarrollo de paneles de control con Grafana para monitorización de datos del satélite. Creación de simulaciones meteorológicas utilizando Python para predicción de condiciones espaciales. Implementación de módulos empresariales con Odoo para gestión de operaciones.",
+      "role": "Desarrollador Full Stack (Prácticas)",
+      "company": "Asociación Científico Tecnológica Hyperspace Canarias",
+      "period": "14/05/2025 - 17/06/2025",
+      "description": "Diseño e implementación de dashboards en Grafana conectados a Prometheus para la monitorización de datos de un satélite. Creación de scripts en Python para la simulación de datos de un satélite con fines de monitorización y análisis.",
       "technologies": [
         "Python",
         "Grafana",
-        "Odoo",
-        "PostgreSQL",
-        "Docker"
+        "Prometheus",
+        "Git",
+        "Github"
+      ]
+    },
+    {
+      "id": 2,
+      "role": "Desarrollador Web (Prácticas)",
+      "company": "Ayuntamiento de Santa Ursula",
+      "period": "13/02/2026 - 11/05/2026",
+      "description": "Desarrollo de una intranet interna para la gestión de activos, solicitudes y consulta de información administrativa. Diseño y desarrollo de funcionalidades web para facilitar la gestión interna del departamento. Colaboración en tareas de organización y coordinación con otras personas en prácticas dentro del área técnica. Apoyo en tareas del departamento informático y soporte básico a usuarios internos. Participación en el entorno administrativo del ayuntamiento y colaboración en tareas de atención y orientación al ciudadano.",
+      "technologies": [
+        "HTML/CSS",
+        "JavaScript",
+        "MySQL",
+        "Python",
+        "Django",
+        "Bootstrap"
       ]
     }
   ],
   "education": [
     {
       "id": 1,
-      "degree": "Bachillerato Científico Tecnológico",
+      "degree": "Educación Secundaria Obligatoria",
       "institution": "IES Puerto de la Cruz - Telesforo Bravo",
-      "year": "2021 - 2022"
+      "year": "2017 - 2020"
     },
     {
       "id": 2,
-      "degree": "Desarrollo de Aplicaciones Web (DAW)",
+      "degree": "Bachillerato Científico-Tecnológico",
+      "institution": "IES Puerto de la Cruz - Telesforo Bravo",
+      "year": "2020 - 2022"
+    },
+    {
+      "id": 3,
+      "degree": "CFGS - Desarrollo de Aplicaciones Web",
       "institution": "Instituto de Formación Profesional",
-      "year": "2023 - 2026"
+      "year": "2022 - 2026"
     }
+  ],
+  "languages": [
+    {
+      "name": "Español",
+      "level": "Nativo"
+    },
+    {
+      "name": "Inglés",
+      "level": "Medio"
+    }
+  ],
+  "additionalInfo": [
+    "Carné de conducir B",
+    "Disponibilidad total"
   ],
   "projects": [
     {

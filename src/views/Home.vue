@@ -170,29 +170,75 @@
         </div>
       </div>
 
-      <!-- EDUCATION LIST -->
-      <div class="h-fit lg:sticky lg:top-24">
-        <h2 class="text-2xl font-bold text-white mb-6 px-2">Education</h2>
-        <div class="space-y-4">
-           <div 
-              v-for="edu in cv.education" 
-              :key="edu.id" 
-              class="bento-card p-6 flex flex-col md:flex-row gap-4 items-start md:items-center justify-between"
-           >
-              <div class="flex gap-4 items-center">
-                 <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-xl shrink-0">
-                    🎓
-                 </div>
-                 <div>
-                    <h3 class="font-bold text-white text-lg">{{ edu.degree }}</h3>
-                    <p class="text-sm text-bento-subtext">{{ edu.institution }}</p>
-                 </div>
-              </div>
-              <div class="text-xs text-bento-subtext font-mono bg-white/5 px-3 py-1.5 rounded-full border border-white/5 whitespace-nowrap self-start md:self-center">
-                 {{ edu.year }}
-              </div>
-           </div>
+      <!-- EDUCATION, LANGUAGES & INFO LIST -->
+      <div class="h-fit lg:sticky lg:top-24 space-y-8">
+        
+        <!-- EDUCATION -->
+        <div>
+          <h2 class="text-2xl font-bold text-white mb-6 px-2">Education</h2>
+          <div class="space-y-4">
+             <div 
+                v-for="edu in cv.education" 
+                :key="edu.id" 
+                class="bento-card p-6 flex flex-col md:flex-row gap-4 items-start md:items-center justify-between"
+             >
+                <div class="flex gap-4 items-center">
+                   <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-xl shrink-0">
+                      🎓
+                   </div>
+                   <div>
+                      <h3 class="font-bold text-white text-lg">{{ edu.degree }}</h3>
+                      <p class="text-sm text-bento-subtext">{{ edu.institution }}</p>
+                   </div>
+                </div>
+                <div class="text-xs text-bento-subtext font-mono bg-white/5 px-3 py-1.5 rounded-full border border-white/5 whitespace-nowrap self-start md:self-center">
+                   {{ edu.year }}
+                </div>
+             </div>
+          </div>
         </div>
+
+        <!-- LANGUAGES -->
+        <div v-if="cv.languages && cv.languages.length">
+          <h2 class="text-2xl font-bold text-white mb-6 px-2">Idiomas</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+             <div 
+                v-for="lang in cv.languages" 
+                :key="lang.name" 
+                class="bento-card p-5 flex items-center justify-between"
+             >
+                <div class="flex gap-3 items-center">
+                   <div class="w-10 h-10 rounded-lg bg-accent-purple/10 flex items-center justify-center text-lg shrink-0">
+                      🗣️
+                   </div>
+                   <div>
+                      <h3 class="font-bold text-white">{{ lang.name }}</h3>
+                   </div>
+                </div>
+                <span class="text-xs font-semibold px-2.5 py-1 bg-accent-purple/20 text-accent-purple border border-accent-purple/20 rounded-full">
+                   {{ lang.level }}
+                </span>
+             </div>
+          </div>
+        </div>
+
+        <!-- MORE INFO -->
+        <div v-if="cv.additionalInfo && cv.additionalInfo.length">
+          <h2 class="text-2xl font-bold text-white mb-6 px-2">Más información</h2>
+          <div class="bento-card p-6">
+             <div class="flex flex-wrap gap-3">
+                <div 
+                   v-for="info in cv.additionalInfo" 
+                   :key="info" 
+                   class="flex items-center gap-2 px-4 py-2 bg-white/5 rounded-xl border border-white/5 text-sm text-gray-300 hover:border-white/10 transition-colors"
+                >
+                   <span class="w-2 h-2 rounded-full bg-accent-cyan"></span>
+                   <span>{{ info }}</span>
+                </div>
+             </div>
+          </div>
+        </div>
+
       </div>
 
     </div>

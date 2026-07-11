@@ -24,7 +24,7 @@
 
     <!-- Contact -->
     <a 
-      href="mailto:aaralvrod@gmail.com"
+      href="mailto:aaron05.aar@gmail.com"
       class="w-10 h-10 flex items-center justify-center rounded-full bg-apple-blue hover:bg-blue-500 transition-colors text-white"
       title="Contactar"
     >
